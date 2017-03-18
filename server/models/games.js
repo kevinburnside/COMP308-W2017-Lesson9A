@@ -1,13 +1,11 @@
-let mongoose = require('mongoose');
-
+var mongoose = require('mongoose');
 // create a model class
-let gamesSchema = mongoose.Schema({
+var gamesSchema = mongoose.Schema({
     name: String,
     rating: Number,
     cost: Number
-},
-{
-  collection: "games"
+}, {
+    collection: "games"
 });
-
 module.exports = mongoose.model('games', gamesSchema);
+//# sourceMappingURL=games.js.map

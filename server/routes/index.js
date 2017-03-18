@@ -1,18 +1,15 @@
 // modules required for routing
-let express = require('express');
-let router = express.Router();
-
+var express = require('express');
+var router = express.Router();
 // require the index controller
-let indexController = require('../controllers/index');
-
+var indexController = require('../controllers/index');
 /* GET home page. wildcard */
-router.get('/', (req, res, next) => {
-  indexController.DisplayHome(req, res);
+router.get('/', function (req, res, next) {
+    indexController.DisplayHome(req, res);
 });
-
 /* GET contact page. */
-router.get('/contact', (req, res, next) => {
-  indexController.DisplayContact(req, res);
+router.get('/contact', function (req, res, next) {
+    indexController.DisplayContact(req, res);
 });
-
 module.exports = router;
+//# sourceMappingURL=index.js.map
