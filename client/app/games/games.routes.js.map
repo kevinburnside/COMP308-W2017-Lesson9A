@@ -1,0 +1,1 @@
+{"version":3,"file":"games.routes.js","sourceRoot":"","sources":["games.routes.ts"],"names":[],"mappings":";;AAEA,YAAY;AACZ,qDAAmD;AAEnD,gBAAgB;AAChB,wDAAsD;AAEzC,QAAA,WAAW,GAAW,CAAC;QAChC,IAAI,EAAE,KAAK;QACX,SAAS,EAAE,gCAAc;QACzB,QAAQ,EAAE;YACN,EAAC,IAAI,EAAE,QAAQ,EAAE,SAAS,EAAE,8BAAa,EAAC;SAC7C;KACJ,CAAC,CAAC"}

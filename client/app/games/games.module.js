@@ -13,7 +13,6 @@ var router_1 = require("@angular/router");
 //top level component
 var games_routes_1 = require("./games.routes");
 var games_component_1 = require("./games.component");
-//sub components
 var GamesModule = (function () {
     function GamesModule() {
     }

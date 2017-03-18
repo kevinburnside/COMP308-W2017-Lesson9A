@@ -8,7 +8,7 @@ import { GamesRoutes } from './games.routes';
 import { GamesComponent } from './games.component';
 
 //sub components
-
+import { ListComponent } from './list/list.component';
 
 @NgModule({
     imports:[
